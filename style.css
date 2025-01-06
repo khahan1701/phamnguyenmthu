@@ -1,0 +1,94 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    background-color:#074590;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.form{
+    width: 700px;
+    position: absolute;
+}
+
+.form .tieude{
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+}
+
+.tieude h3{
+    margin: auto;
+}
+
+
+.bang-danh-gia{
+    padding: 2.4rem;
+    width: 700px;
+    margin-top: 1rem;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.bang-danh-gia h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bang-danh-gia .logo{
+    width: 70px;
+}
+
+.thongtin div{
+    display: flex;
+    padding: 0.2rem;
+}
+
+.thongtin div h5{
+    width: 100px;
+}
+
+.thongtin div input{
+    margin-left: 1rem;
+}
+
+select {
+    width: 500px;
+    padding: 5px;
+    margin-bottom: 1rem;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#ghichu{
+    width: 100%;
+    margin: 0.5rem;
+}
+
+#btnGui{
+    padding: 0.2rem 1.2rem;
+    border-radius: 15px;
+}
+@media (max-width: 700px){
+    .tieude h3{
+        line-height: 30px;
+    }
+
+    .form{
+        width: 450px;
+    }
+
+    .main{
+        width: 450px;
+    }
+}
